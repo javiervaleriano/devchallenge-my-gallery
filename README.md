@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/{}">
+    <a href="https://devchallenges.io/solutions/k4GP3M34ZEPs8mqh5KIi">
       Solution / Solución
     </a>
     <span> | </span>
@@ -41,8 +41,8 @@
 ### Mobile | Móvil
 <img src="./Mobile_ss.png" alt="mobile view | vista móvil" width="300" height="auto" />
 
-Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/{}) to [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) from Devchallenges.io. |
-Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/{}) al [desafío](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) de Devchallenges.io
+Hello everyone, I hope you are well. This is my [solution](https://devchallenges.io/solutions/k4GP3M34ZEPs8mqh5KIi) to [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) from Devchallenges.io. |
+Hola a todos, espero que estén bien. Esta es mi [solución](https://devchallenges.io/solutions/k4GP3M34ZEPs8mqh5KIi) al [desafío](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) de Devchallenges.io
 
 Here you can see my [demo](https://javiervaleriano.github.io/devchallenge-my-gallery/). | Aquí pueden ver mi [demo](https://javiervaleriano.github.io/devchallenge-my-gallery/).
 
