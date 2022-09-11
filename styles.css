@@ -10,14 +10,14 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
     font-family: var(--montserrat);
     margin: 0;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,7 +34,9 @@ main {
     padding: 0 .5em;
 }
 
-.heading__presentation { margin: 1.8em auto .8em; }
+.heading__presentation {
+    margin: 1.8em auto .8em;
+}
 
 .presentation__img {
     max-width: 110px;
@@ -67,25 +69,34 @@ main {
     border-radius: 10px;
 }
 
-.numbers__item--posts { flex-shrink: 1.25; }
+.numbers__item--posts {
+    flex-shrink: 1.25;
+}
 
-.numbers__item--middle { margin: 0 .7em; }
+.numbers__item--middle {
+    margin: 0 .7em;
+}
 
-.numbers__item--qty, .numbers__item--desc { margin: 0; }
+.numbers__item--qty,
+.numbers__item--desc {
+    margin: 0;
+}
 
 .numbers__item--qty {
     margin-bottom: .35em;
     color: var(--gray-1);
 }
 
-.numbers__item--desc { color: var(--gray-3); }
+.numbers__item--desc {
+    color: var(--gray-3);
+}
 
 .gallery {
     margin: 1.7em 0 3.25em;
     padding: 1em .5em .5em;
     overflow: hidden;
     width: 100%;
-    
+
     display: grid;
     grid-template-rows: repeat(3, minmax(125px, 30vw));
     grid-template-columns: repeat(3, 1fr);
@@ -103,7 +114,7 @@ main {
     position: relative;
     bottom: 15px;
     opacity: 0;
-    
+
     animation: showImage 1.2s ease-in;
     animation-fill-mode: forwards;
 }
@@ -157,41 +168,71 @@ main {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 279px) {
-    .numbers { flex-wrap: wrap; }
-    
-    .numbers__item--following { margin-top: .5em; }
+@media only screen and (max-width: 348px) {
+    .numbers {
+        flex-wrap: wrap;
+    }
+
+    .numbers__item--following {
+        margin-top: .5em;
+    }
 }
 
 @media only screen and (min-width: 576px) {
-    .presentation__img { max-width: 130px; }
-    
-    .presentation__name { font-size: .95em; }
-    
-    .presentation__address { font-size: .7em; }
-    
-    .numbers__item { width: 110px; }
-    
-    .numbers__item--middle { margin: 0 1em; }
-    
-    .numbers__item { font-size: .8em; }
+    .presentation__img {
+        max-width: 130px;
+    }
+
+    .presentation__name {
+        font-size: .95em;
+    }
+
+    .presentation__address {
+        font-size: .7em;
+    }
+
+    .numbers__item {
+        width: 110px;
+    }
+
+    .numbers__item--middle {
+        margin: 0 1em;
+    }
+
+    .numbers__item {
+        font-size: .8em;
+    }
 }
 
 @media only screen and (min-width: 700px) {
-    main { padding: 0 1em; }
-    
-    .heading__presentation { margin: 2.25em auto .8em; }
-    
-    .presentation__img { max-width: 150px; }
-    
-    .presentation__name { font-size: 1em; }
-    
-    .presentation__address { font-size: .75em; }
-    
-    .numbers__item { font-size: .85em; }
-    
-    .gallery { margin: 2.4em 0 4em; }
-    
+    main {
+        padding: 0 1em;
+    }
+
+    .heading__presentation {
+        margin: 2.25em auto .8em;
+    }
+
+    .presentation__img {
+        max-width: 150px;
+    }
+
+    .presentation__name {
+        font-size: 1em;
+    }
+
+    .presentation__address {
+        font-size: .75em;
+    }
+
+    .numbers__item {
+        font-size: .85em;
+    }
+
+    .gallery {
+        margin: 2.4em 0 4em;
+    }
+
     @media only screen and (min-width: 800px) {
         .gallery {
             grid-template-rows: repeat(3, 245px);
@@ -201,25 +242,39 @@ main {
 }
 
 @media only screen and (min-width: 990px) {
-    body { display: block; }
-    
-    .heading__presentation { margin: 2.95em auto 1.7em; }
-    
-    .presentation__img { max-width: 160px; }
-    
+    body {
+        display: block;
+    }
+
+    .heading__presentation {
+        margin: 2.95em auto 1.7em;
+    }
+
+    .presentation__img {
+        max-width: 160px;
+    }
+
     .presentation__name {
         font-size: 1.5em;
         margin: .5em 0 .4em;
     }
-    
-    .presentation__address { font-size: .875em; }
-    
-    .numbers__item--middle { margin: 0 2em; }
-    
-    .numbers__item--qty { font-size: 1.125em; }
-    
-    .numbers__item--desc { font-size: .875em; }
-    
+
+    .presentation__address {
+        font-size: .875em;
+    }
+
+    .numbers__item--middle {
+        margin: 0 2em;
+    }
+
+    .numbers__item--qty {
+        font-size: 1.125em;
+    }
+
+    .numbers__item--desc {
+        font-size: .875em;
+    }
+
     .gallery {
         margin: 3.5em 0 7.5em;
         grid-template-rows: repeat(3, 300px);
